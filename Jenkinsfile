@@ -5,7 +5,7 @@ node ()
   }
 }
 
-node ("Linux x86")
+node ("jdk17 && x86 && linux")
 {
   stage("Hello AWS"){
     echo "hello world from AWS"
